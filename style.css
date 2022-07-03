@@ -8,6 +8,10 @@ h1 {
 
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .color {
     color: orange;
 
@@ -22,6 +26,7 @@ h1 {
 .half-width {
     width: 50%;
     padding-left: 4%;
+
 }
 
 .half-width img {
@@ -48,4 +53,35 @@ h1 {
     background-image: url(img/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px;
+    border-radius: 10px;
+    padding-left: 30px;
+
+}
+
+.experience-area {
+    background-image: url(img/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+
+}
+
+#baby {
+    border-left: 7px solid cornflowerblue;
+    box-shadow: 10px 10px 40px cornflowerblue;
+}
+
+#full {
+    border-left: 7px solid crimson;
+    box-shadow: 10px 10px 40px crimson;
+}
+
+footer p {
+    text-align: center;
 }
